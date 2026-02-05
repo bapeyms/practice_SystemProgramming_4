@@ -1,0 +1,9 @@
+Often we hear, learn, and even use terms or phrases that we dont fully understand. 
+I find this to be quite common within the software development community, whether is be RESTful Web APIs, Agile methodology, Machine Learning, or some other term. 
+This isnt necessarily a bad thing, but its important to understand when you truly know something and when you just know the name for it.
+For me, Systems Programming is one such term. Id like to try and explain, using simple language, what this means.
+The article goes on to imply that a core part of system programming is the need for things to be very fast.
+This makes sense why we would need to know a lot about the hardware. 
+It also makes sense that speed (performance) would be a core part of systems programming if it is a platform to other software.
+If the most central part of your application (the system software “platform”) is slow, then the whole application is slow. 
+For many applications, especially at scale, this would be a deal-breaker.
