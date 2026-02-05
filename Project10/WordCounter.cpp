@@ -51,10 +51,8 @@ void WordCounter::Save(string filename)
 		cout << "ERROR!" << endl;
 		return;
 	}
-	string line;
-	for (const string& line : inputText)
-	{
-		file << line << endl;
-	}
+	file << "Number of chars: " << to_string(charCount) << endl;
+	file << "Number of words: " << to_string(wordCount) << endl;
+	file << "Number of lines: " << to_string(lineCount) << endl;
 	file.close();
 }
