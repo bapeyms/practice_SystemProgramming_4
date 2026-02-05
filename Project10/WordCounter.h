@@ -11,10 +11,16 @@ class WordCounter
 	int charCount;
 	int wordCount;
 	int lineCount;
+
 	vector<string> inputText;
 	mutex flag;
 public:
-	WordCounter() {};
+	WordCounter()
+	{
+		charCount = 0; 
+		wordCount = 0;
+		lineCount = 0;
+	}
 	void ReadFile(string filename);
 	void Analize();
 	void Save(string filename);
